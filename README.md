@@ -21,7 +21,7 @@ A Telegram Mini App that allows users to synchronize video playback between mult
 
 1. Clone the repository:
 ```bash
-git clone <https://github.com/phyvics/tg-syncvid>
+git clone https://github.com/phyvics/tg-syncvid
 cd tg-syncvid
 ```
 
