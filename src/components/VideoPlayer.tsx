@@ -6,10 +6,9 @@ interface VideoPlayerProps {
   videoFile: File;
   socket: Socket;
   roomCode: string;
-  isHost: boolean;
 }
 
-const VideoPlayer = ({ videoFile, socket, roomCode, isHost }: VideoPlayerProps) => {
+const VideoPlayer = ({ videoFile, socket, roomCode }: VideoPlayerProps) => {
   const videoRef = useRef<HTMLVideoElement>(null);
   const [videoUrl, setVideoUrl] = useState<string>('');
   const lastSyncTime = useRef<number>(0);
