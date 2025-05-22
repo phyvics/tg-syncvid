@@ -1,3 +1,4 @@
+// VideoPlayer component for synchronized video playback across multiple devices
 import { useEffect, useRef, useState } from 'react';
 import { Box } from '@mui/material';
 import { Socket } from 'socket.io-client';

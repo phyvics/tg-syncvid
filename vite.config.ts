@@ -1,3 +1,4 @@
+// Vite configuration for the TG-SyncVid application
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
